@@ -1,9 +1,10 @@
+import type { BlocksContent } from "@strapi/blocks-react-renderer";
 export interface Post {
   id: number;
   documentId: string;
   title: string;
   description: string;
-  body: Body[];
+  body: BlocksContent;
   slug: string;
   createdAt: string;
   updatedAt: string;
