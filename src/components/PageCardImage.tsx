@@ -12,9 +12,13 @@ const PageCardImage = ({ post }: Props) => {
 
   return (
     <div className="bg-white block p-6 border border-slate-200 rounded-lg shadow-sm">
-      <Link href={`/blog/${slug}`} aria-label="View post image">
+      <Link
+        href={`/blog/${slug}`}
+        aria-label="View post image"
+        className="text-center block"
+      >
         <Image
-          className="rounded-lg"
+          className="rounded-lg inline-block"
           src={url}
           alt={`Image ${title}`}
           width={width}
