@@ -30,9 +30,7 @@ const Store = async ({
   let pageNumber = page ? parseInt(page) : 1;
   if (isNaN(pageNumber) || pageNumber < 1) {
     pageNumber = 1;
-    console.log(
-      "Valor no válido como parámetro de página. Se establece a 1. 🐤"
-    );
+    console.log("Valor no válido como parámetro de página. Se establece a 1.");
   }
 
   const { data, pagination } = await getBooks(pageNumber);
