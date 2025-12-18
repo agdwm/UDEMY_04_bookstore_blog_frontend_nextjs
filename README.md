@@ -16,7 +16,7 @@ Plataforma web que permite a los usuarios:
 
 ## 🔗 Repositorio Complementario
 
-**Backend**: [React Next Strapi Render Cloudinary](https://github.com/agdwm/React_Next_Strapi_Render_Cloudinary) - Backend CMS que proporciona las APIs para este frontend
+**Backend**: [UDEMY_04_bookstore_blog_backend_strapi](https://github.com/agdwm/UDEMY_04_bookstore_blog_backend_strapi) - Backend CMS que proporciona las APIs para este frontend
 
 ## 🛠️ Tecnologías Utilizadas
 
